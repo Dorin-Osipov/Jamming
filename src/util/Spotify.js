@@ -2,7 +2,7 @@ let accessToken;
 let userId;
 // const clientId = '06d7e9dcd99b48408d937d427e4332f7' 
 const clientId = `${process.env.REACT_APP_SPOTIFY_CLIENT_ID}`;
-const redirectUri = 'https://cool-torte-cd6c48.netlify.app'
+const redirectUri = 'https://osipd-learning.netlify.app'
                     //'http://localhost:3000/callback'
   //"https://lucitemple.github.io/jamming/" // "http://localhost:3000"; // Must match spotify app setting exactly & include trailing slash.
 
