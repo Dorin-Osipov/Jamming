@@ -1,9 +1,5 @@
-# About Jammming
-[Jammming](lucitemple.github.io/jamming/) is a responsive react web app that uses the Spotify API to:
-- display the user's Spotify playlists
-- search for music tracks
-- create a playlist
-- save the playlist to the user's Spotify account.
+# Jammming · Spotify playlist builder
 
-This project was built for the [Codecademy Pro 'Front-End-Engineer'](https://www.codecademy.com/learn/paths/front-end-engineer-career-path) career path, and Codecademy retains copyright of the web design and assets.
+A React app for searching Spotify tracks, assembling a playlist and saving it to a Spotify account. The [Spotify client](src/util/Spotify.js) handles the user lookup, track search and playlist requests. The [playlist component](src/Components/Playlist/Playlist.js) manages the editing interface.
 
+This project was built for the [Codecademy Front-End Engineer career path](https://www.codecademy.com/learn/paths/front-end-engineer-career-path). Codecademy retains copyright of the web design and assets.
